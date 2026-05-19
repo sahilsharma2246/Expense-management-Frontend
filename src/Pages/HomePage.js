@@ -97,7 +97,7 @@ const HomePage = () => {
       getAllTransactions(); // ✅ refresh without reload
     } catch (error) {
       setLoading(false);
-      message.error('Failed to Delete');
+      message.error('Failed to delete');
     }
   };
 
